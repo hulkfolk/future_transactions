@@ -1,0 +1,24 @@
+version: "2"
+services:
+  data-processing-server:
+    build: .
+    image: data-processing-server:latest
+    container_name: data-processing-server
+    volumes:
+      - /opt/log:/opt/log
+      - /opt/data/future_transactions:/opt/data/future_transactions
+    restart: no
+    command: ["python3", "-m", "future_transactions.data_processing_server"]
+
+
+  daily-summary-report-server:
+    build: .
+    image: daily-summary-report-server:latest
+    container_name: daily-summary-report-server
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - /opt/log:/opt/log
+      - /opt/data/future_transactions:/opt/data/future_transactions
+    restart: unless-stopped
