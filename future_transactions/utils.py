@@ -24,9 +24,10 @@ logger = get_logger()
 
 def load_config() -> Dict[str, str]:
     # TODO: make it per env
-    config_path = os.path.join(os.path.dirname(__file__), 'config', 'Dev', 'config.yml')
-    with open(config_path, "r") as f:
-        try:
+    try:
+        config_path = os.path.join(os.path.dirname(__file__), 'config', 'Dev', 'config.yml')
+        with open(config_path, "r") as f:
             return yaml.safe_load(f)
-        except yaml.YAMLError as e:
-            logger.exception(f"Failed to load config.")
+    except:
+        logger.exception(f"Failed to load config.")
+        return {}

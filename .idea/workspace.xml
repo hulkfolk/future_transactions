@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6093ce39-ff29-46bb-9eef-b60eaabfb4d7" name="Default Changelist" comment="" />
+    <list default="true" id="6093ce39-ff29-46bb-9eef-b60eaabfb4d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_daily_summary_report_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data_processing_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future_transactions/data_processing_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/data_processing_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future_transactions/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future_transactions/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/__init__.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +23,10 @@
     <session id="1473889238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -22,83 +35,93 @@
           <entry key="csv" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="log" value="3" />
-          <entry key="py" value="4" />
-          <entry key="txt" value="3" />
-          <entry key="yml" value="4" />
+          <entry key="py" value="25" />
+          <entry key="txt" value="5" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="4" />
-          <entry key="YAML" value="4" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="25" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Python Console" value="285" />
-          <entry key="py" value="2275" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="3247" />
+          <entry key="txt" value="10" />
           <entry key="yml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="2560" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="3532" />
           <entry key="YAML" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/future_transactions/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_daily_summary_report_server.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/future_transactions/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/future_transactions/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1702439757483" expanded="true" signature="2468:2471" ph="..." />
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1702457442487" expanded="true" signature="67:259" ph="..." />
+                <marker date="1702457442487" expanded="true" signature="746:747" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/sansio/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/datastructures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="874" column="16" selection-start-line="874" selection-start-column="16" selection-end-line="874" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/_pytest/fixtures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="923" selection-start-line="923" selection-end-line="923" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/future_transactions/daily_summary_report_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="149">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -107,10 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="147">
+              <caret line="1501" selection-start-line="1501" selection-end-line="1501" />
             </state>
           </provider>
         </entry>
@@ -118,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/future_transactions/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="269">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -143,11 +166,18 @@
       <find>PRODUCT GROUP CODE</find>
       <find>output.csv</find>
       <find>SUBACCOUNT</find>
+      <find>attachment_filename</find>
+      <find>Response</find>
+      <find>_status_code</find>
+      <find>/v1/report/getFile/</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
       <replace>CLIENT</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,26 +185,31 @@
         <option value="$PROJECT_DIR$/future_transactions/Dockerfile" />
         <option value="$PROJECT_DIR$/future_transactions/config/Prod/config.yml" />
         <option value="$PROJECT_DIR$/future_transactions/config/Dev/config.yml" />
-        <option value="$PROJECT_DIR$/future_transactions/requirements.txt" />
-        <option value="$PROJECT_DIR$/future_transactions/utils.py" />
         <option value="$PROJECT_DIR$/future_transactions/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" />
-        <option value="$PROJECT_DIR$/future_transactions/data_processing_server.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/future_transactions/data_processing_server.py" />
+        <option value="$PROJECT_DIR$/future_transactions/utils.py" />
+        <option value="$PROJECT_DIR$/tests/unit/test_utils.py" />
+        <option value="$PROJECT_DIR$/tests/unit/test_data_processing_server.py" />
+        <option value="$PROJECT_DIR$/tests/unit/conftest.py" />
+        <option value="$PROJECT_DIR$/future_transactions/requirements.txt" />
+        <option value="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" />
+        <option value="$PROJECT_DIR$/tests/unit/test_daily_summary_report_server.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="278" />
-    <option name="y" value="86" />
-    <option name="width" value="1158" />
-    <option name="height" value="785" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="875" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,11 +231,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/integration" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,57 +255,141 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.daily_summary_report_server">
-    <configuration name="daily_summary_report_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_utils.py">
+    <configuration name="pytest for test_daily_summary_report_server.test_get_file" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="future_transactions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/future_transactions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_daily_summary_report_server.test_get_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="data_processing_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for tests.integration.test_daily_summary_report_server.test_get_file" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="future_transactions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/future_transactions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/future_transactions/data_processing_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.integration.test_daily_summary_report_server.test_get_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.integration.test_daily_summary_report_server.test_get_file_exception" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.integration.test_daily_summary_report_server.test_get_file_exception&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_daily_summary_report_server.test_get_file" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_daily_summary_report_server.test_get_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_daily_summary_report_server.test_get_file_exception" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_daily_summary_report_server.test_get_file_exception&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_daily_summary_report_server.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_daily_summary_report_server.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_data_processing_server.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_data_processing_server.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_utils.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="future_transactions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_utils.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.daily_summary_report_server" />
-      <item itemvalue="Python.data_processing_server" />
+      <item itemvalue="Python tests.pytest for test_daily_summary_report_server.test_get_file" />
+      <item itemvalue="Python tests.pytest for tests.test_daily_summary_report_server.test_get_file_exception" />
+      <item itemvalue="Python tests.pytest in test_daily_summary_report_server.py" />
+      <item itemvalue="Python tests.pytest in test_data_processing_server.py" />
+      <item itemvalue="Python tests.pytest in test_utils.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.daily_summary_report_server" />
-        <item itemvalue="Python.data_processing_server" />
+        <item itemvalue="Python tests.pytest in test_utils.py" />
+        <item itemvalue="Python tests.pytest in test_data_processing_server.py" />
+        <item itemvalue="Python tests.pytest in test_daily_summary_report_server.py" />
+        <item itemvalue="Python tests.pytest for test_daily_summary_report_server.test_get_file" />
+        <item itemvalue="Python tests.pytest for tests.test_daily_summary_report_server.test_get_file_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -281,24 +406,56 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 16h 49m 34s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 16h 50m 21s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 16h 50m 42s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 16h 50m 44s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 16h 51m 59s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file_exception - 2023.12.13 at 16h 52m 02s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file_exception" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_daily_summary_report_server_test_get_file - 2023.12.13 at 17h 02m 54s.xml">
+      <configuration name="pytest for test_daily_summary_report_server.test_get_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_daily_summary_report_server_py - 2023.12.13 at 17h 03m 00s.xml">
+      <configuration name="pytest in test_daily_summary_report_server.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_data_processing_server_py - 2023.12.13 at 17h 03m 08s.xml">
+      <configuration name="pytest in test_data_processing_server.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_utils_py - 2023.12.13 at 17h 03m 19s.xml">
+      <configuration name="pytest in test_utils.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <frame x="0" y="25" width="1440" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32947233" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33590734" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5006435" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43886745" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3899614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.54697555" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32947233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -316,15 +473,30 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/future_transactions/daily_summary_report_server.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/future_transactions/utils.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>resp.headers</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resp.headers['Content-Disposition']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mocked_send_file.called_once()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>df.to_dict(['Client_Information', 'Product_Information', 'Total_Transaction_Amount'])</expression-string>
         <language-id>Python</language-id>
@@ -348,9 +520,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/future_transactions/daily_summary_report_server.py.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/future_transactions/daily_summary_report_server.py.log" />
     <entry file="file://$PROJECT_DIR$/future_transactions/Input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -365,9 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py.log" />
     <entry file="file://$PROJECT_DIR$/future_transactions/output.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -385,66 +553,188 @@
     <entry file="file://$PROJECT_DIR$/future_transactions/config/Dev/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
+          <caret column="11" selection-start-column="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/future_transactions/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/future_transactions/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="24" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1702442737840" expanded="true" signature="2469:2472" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/future_transactions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/future_transactions/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/future_transactions/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1702439757483" expanded="true" signature="2468:2471" ph="..." />
-          </folding>
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="611" column="28" lean-forward="true" selection-start-line="611" selection-start-column="28" selection-end-line="611" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1817">
+          <caret line="589" column="4" selection-start-line="589" selection-start-column="4" selection-end-line="589" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="466" selection-start-line="466" selection-end-line="466" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/flask/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="923" selection-start-line="923" selection-end-line="923" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/flask/wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="133" column="19" lean-forward="true" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/wrappers/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1501" selection-start-line="1501" selection-end-line="1501" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/sansio/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p_virenv/lib/python3.6/site-packages/werkzeug/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="874" column="16" selection-start-line="874" selection-start-column="16" selection-end-line="874" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/future_transactions/daily_summary_report_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="149">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1702449402756" expanded="true" signature="114:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_data_processing_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1702449754532" expanded="true" signature="133:166" ph="..." />
+            <marker date="1702449754532" expanded="true" signature="262:267" ph="..." />
+            <marker date="1702449754532" expanded="true" signature="391:396" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_daily_summary_report_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1702457442487" expanded="true" signature="67:259" ph="..." />
+            <marker date="1702457442487" expanded="true" signature="746:747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/future_transactions/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/future_transactions/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>

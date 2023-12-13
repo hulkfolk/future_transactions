@@ -4,7 +4,7 @@ from flask_api import FlaskAPI
 
 from .utils import logger, load_config
 
-# # local run
+# # local test
 # from future_transactions.utils import logger, load_config
 
 
@@ -24,7 +24,7 @@ def create_app():
 
     # http://localhost:5000/v1/report/getFile
     @app.route("/v1/report/getFile/", methods=["GET"])
-    def get_price_by_unix(*args, **kwargs):
+    def get_file(*args, **kwargs):
         logger.info(request.url)
         file_path = f'{DATA_PATH}/output.csv'
 

@@ -6,7 +6,7 @@ import pandas as pd
 
 from .utils import logger, load_config
 
-# # local run
+# # local test
 # from future_transactions.utils import logger, load_config
 
 
