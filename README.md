@@ -12,6 +12,6 @@ How to run the application with Docker?
 How to run the application without Docker?
   1. Clone the code to the local machine, and make sure **/opt/log** and **/opt/data/future_transactions** are created on the local machine
   2. Go to /future_transactions, and run the following commands in order:
-     **python -m future_transactions.data_processing_server**
-     **python -m future_transactions.daily_summary_report_server**
+     i) **python -m future_transactions.data_processing_server**
+     ii) **python -m future_transactions.daily_summary_report_server**
   3. Open a new tab in the browser, hit http://localhost:5000/v1/report/getFile, and check the output.csv in the Downloads folder
