@@ -2,9 +2,9 @@ The future_transactions project is developed using Flask and Docker. There are t
   1. data-processing-server: Processes the fixed width Input.txt using pandas and generates output.csv
      (Note: This process is a job that exits once it finishes processing the data, and sample output.csv is available under /future_transactions/future/transactions/output.csv)
   2. daily-summary-report-server: A Flask app that serves user's requests with 3 endpoints:
-    - http://localhost:5000/v1/report/getFile: downloads output.csv to the Downloads folder
-    - http://localhost:5000/v1/report/getData: returns future transaction data in JSON format
-    - http://localhost:5000: displays the future transaction data in a table
+     - http://localhost:5000/v1/report/getFile: downloads output.csv to the Downloads folder
+     - http://localhost:5000/v1/report/getData: returns future transaction data in JSON format
+     - http://localhost:5000: displays the future transaction data in a table
 
 How to run the application with Docker?
   1. Clone the code to the local machine, and make sure the docker desktop is installed on the user's machine
