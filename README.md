@@ -18,3 +18,8 @@ How to run the application without Docker?
      - **python -m future_transactions.data_processing_server**
      - **python -m future_transactions.daily_summary_report_server**
   3. Open a new tab in the browser, hit the endpoints provided
+
+Future development:
+  1. Enhance the HTML table to make it more interactive
+  2. Improve the data processing logic to cater to the big input file
+  3. Persist data to database
