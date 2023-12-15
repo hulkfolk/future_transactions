@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="futureTransactions" ng-strict-di>
+<head>
+  <style>
+  table {
+    order: 1px solid rgb(200, 200, 200);
+    border-collapse: collapse;
+    font-family: Verdana, Verdana, Sans-serif;
+  }
+  th  {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 5px;
+    text-align: center;
+    <!--color: white;-->
+    <!--background-color: black;-->
+  }
+  td  {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 5px;
+    text-align: center;
+    <!--background-color: rgb(245, 245, 245);-->
+  }
+  table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  </style>
+  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"> </script>
+  <script src = "static/main.js" > </script>
+</head>
+
+<body ng-controller="transactionsCtrl">
+
+<div>
+
+<table class="center">
+  <tr>
+    <th>Index</th>
+    <th>Client Information</th>
+    <th>Product Information</th>
+    <th>Total Transaction Amount</th>
+  </tr>
+  <tr ng-repeat="x in items">
+    <td>[[ $index + 1 ]]</td>
+    <td>[[ x.Client_Information ]]</td>
+    <td>[[ x.Product_Information ]]</td>
+    <td>[[ x.Total_Transaction_Amount ]]</td>
+  </tr>
+</table>
+
+</div>
+
+</body>
+</html>
