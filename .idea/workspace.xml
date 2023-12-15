@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6093ce39-ff29-46bb-9eef-b60eaabfb4d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/future_transactions/output_raw.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future_transactions/data_processing_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/data_processing_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future_transactions/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/future_transactions/output.csv" afterDir="false" />
-    </list>
+    <list default="true" id="6093ce39-ff29-46bb-9eef-b60eaabfb4d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Python Console" value="285" />
-          <entry key="gitignore" value="15" />
+          <entry key="gitignore" value="29" />
           <entry key="html" value="590" />
           <entry key="js" value="28" />
           <entry key="py" value="4195" />
@@ -63,7 +58,7 @@
         <counts>
           <entry key="HTML" value="590" />
           <entry key="JavaScript" value="28" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="44" />
           <entry key="Python" value="4480" />
           <entry key="YAML" value="44" />
         </counts>
@@ -94,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/future_transactions/data_processing_server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -137,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -219,8 +214,8 @@
         <option value="$PROJECT_DIR$/future_transactions/static/main.js" />
         <option value="$PROJECT_DIR$/future_transactions/daily_summary_report_server.py" />
         <option value="$PROJECT_DIR$/tests/test_daily_summary_report_server.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/future_transactions/data_processing_server.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -444,12 +439,12 @@
     <frame x="0" y="25" width="1440" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21282594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21282594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43886745" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43886745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4234234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/future_transactions/output.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -785,6 +773,13 @@
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1702624866427" expanded="true" signature="2605:2608" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
