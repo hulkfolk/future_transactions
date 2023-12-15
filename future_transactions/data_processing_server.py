@@ -40,7 +40,9 @@ def process_data():
                                    df['ACCOUNT NUMBER'].astype(str) + "-" + df['SUBACCOUNT NUMBER'].astype(str)
         df['Product_Information'] = df['EXCHANGE CODE'] + "-" + df['PRODUCT GROUP CODE'] + "-" + df['SYMBOL'] + "-" + df['EXPIRATION DATE'].astype(str)
         df['Total_Transaction_Amount'] = df['QUANTITY LONG'] - df['QUANTITY SHORT']
-        df.to_csv(f'{DATA_PATH}/output.csv', columns=['Client_Information', 'Product_Information', 'Total_Transaction_Amount'])
+
+        grouped_df = df.groupby(['Client_Information', 'Product_Information'])['Total_Transaction_Amount'].sum().reset_index()
+        grouped_df.to_csv(f'{DATA_PATH}/output.csv', columns=['Client_Information', 'Product_Information', 'Total_Transaction_Amount'])
     except:
         logger.exception('Failed to process Input.txt')
         return
